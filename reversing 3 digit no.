@@ -1,0 +1,6 @@
+#reverse the number
+num='143'
+a,b,c=[int(i) for i in num]
+num=100*a+10*b+c
+reverse_num=100*c+10*b+a
+print('The reverse of the number',num, 'is', reverse_num)
